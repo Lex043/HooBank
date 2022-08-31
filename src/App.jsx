@@ -13,7 +13,7 @@ import FooterLink from "./components/FooterLink";
 
 const App = () => {
   return (
-    <main className="bg-primary h-full px-6 lg:px-12 font-poppins">
+    <main className="bg-primary h-full px-6 md:px-[4rem] font-poppins">
       <Navbar />
       <Header />
       <Stats />

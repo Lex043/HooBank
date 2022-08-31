@@ -18,7 +18,7 @@ const HandleMoney = () => {
         <GetStartedBtn />
       </div>
 
-      <div className="pt-5 md:w-80 lg:w-[auto] flex flex-col gap-4">
+      <div className="pt-5 md:w-96 lg:w-[auto] flex flex-col gap-4">
         <figure className="flex gap-3 hover:bg-sha py-2 pl-2 rounded-md">
           <img src={star} alt="Star" />
           <header>

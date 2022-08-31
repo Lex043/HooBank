@@ -5,7 +5,7 @@ import people3 from "../assets/people03.png";
 
 const Comments = () => {
   return (
-    <section className="py-6 flex flex-wrap gap-3 lg:flex-nowrap lg:justify-between">
+    <section className="py-6 flex flex-wrap gap-3 lg:flex-nowrap md:justify-between">
       <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
         <div className="pt-5">
           <img

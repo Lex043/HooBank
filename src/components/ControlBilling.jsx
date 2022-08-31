@@ -27,7 +27,7 @@ const ControlBilling = () => {
           </figure>
         </section>
       </header>
-      <figure className="sm:w-80 lg:w-[38rem]">
+      <figure className="sm:w-96 lg:w-[38rem]">
         <img src={bill} alt="bill" className="max-w-full object-cover" />
       </figure>
     </figure>

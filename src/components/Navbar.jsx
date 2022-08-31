@@ -8,7 +8,7 @@ const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("translate-y-[-0vh]");
+    navRef.current.classList.remove("translate-y-[-100vh]");
   };
 
   return (

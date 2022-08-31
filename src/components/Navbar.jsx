@@ -8,7 +8,7 @@ const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("translate-y-0");
+    navRef.current.classList.toggle("translate-y-[0vh]");
   };
 
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
 
       <nav
         ref={navRef}
-        className="text-dimWhite translate-y-[-100vh] sm:translate-y-0 transition-all  sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary sm:bg-none"
+        className="text-dimWhite translate-y-[-100vh] transition-all  sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary"
       >
         <a className="mx-2 hover:text-white" href="#">
           Home

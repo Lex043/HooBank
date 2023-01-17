@@ -4,7 +4,7 @@ import google from "../assets/google.svg";
 
 const ControlBilling = () => {
   return (
-    <figure className="pt-8 sm:flex sm:gap-2 sm:items-center md:justify-between">
+    <figure className="py-10 sm:flex sm:gap-2 sm:items-center md:justify-between">
       <header className="pb-6 sm:w-72 md:w-80 lg:w-[28rem] sm:flex-row sm:order-1">
         <h1 className="text-white text-2xl lg:text-4xl pb-2">
           Easily control your billing & invoicing.

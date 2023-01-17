@@ -5,7 +5,7 @@ import send from "../assets/Send.svg";
 
 const HandleMoney = () => {
   return (
-    <section className="pt-6 sm:flex md:justify-between sm:gap-3 sm:items-center">
+    <section className="py-8 sm:flex md:justify-between sm:gap-3 sm:items-center">
       <div className="sm:w-96 md:w-80 lg:w-[30rem]">
         <h1 className="text-white font-normal text-2xl lg:text-4xl">
           You do the business, we’ll handle the money.

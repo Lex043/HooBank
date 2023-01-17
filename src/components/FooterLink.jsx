@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.svg";
 
 const FooterLink = () => {
   return (
-    <section className="pt-5 pb-3">
+    <section className="py-8">
       <div className="border-t-2 border-footerline"></div>
       <section className="flex flex-col sm:flex-row sm:justify-between">
         <header className="text-dimWhite py-2 sm:flex sm:items-center sm:gap-2 ">

@@ -1,6 +1,6 @@
 const Review = () => {
   return (
-    <section className="py-7 sm:flex sm:gap-3 sm:items-center md:justify-between">
+    <section className="py-8 sm:flex sm:gap-3 sm:items-center md:justify-between">
       <h1 className="text-white pb-3 text-2xl lg:text-4xl md:w-96 lg:w-[32rem]">
         What people are saying about us
       </h1>

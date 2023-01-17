@@ -2,7 +2,7 @@ import GetStartedBtn from "./GetStartedBtn";
 
 const TryService = () => {
   return (
-    <section className="py-7 bg-sha px-3 rounded-[10px] sm:flex sm:justify-between sm:px-10 sm:items-center ">
+    <section className="py-10 bg-sha px-3 rounded-[10px] sm:flex sm:justify-between sm:px-10 sm:items-center ">
       <div className="sm:w-80 lg:w-[28rem]">
         <h1 className="text-2xl lg:text-3xl text-white">
           Let’s try our service now!

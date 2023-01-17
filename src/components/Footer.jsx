@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <section className="pt-6 flex flex-wrap md:justify-between">
+    <section className="pt-8 flex flex-wrap md:justify-between">
       <figure className="pb-3 sm:w-64">
         <img
           src={logo}
@@ -16,7 +16,7 @@ const Footer = () => {
       <section className="sm:flex sm:gap-5 lg:gap-8">
         <ul>
           <li className="text-white list-none py-3 sm:py-0 sm:pb-2 text-[1.5rem]">
-            Usefull Links
+            Useful Links
           </li>
           <li className="text-dimWhite text-[1rem] list-none ">Content</li>
           <li className="text-dimWhite list-none text-[1rem] ">How it Works</li>

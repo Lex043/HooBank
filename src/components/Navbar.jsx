@@ -12,10 +12,14 @@ const Navbar = () => {
   };
 
   return (
-    <section className="flex items-center justify-between py-3">
-      <img src={logo} alt={logo} className="max-w-full w-28" />
+    <nav className="flex items-center justify-between py-5">
+      <img
+        src={logo}
+        alt={logo}
+        className="max-w-full w-28 hover:cursor-pointer"
+      />
 
-      <nav
+      <section
         ref={navRef}
         className="text-dimWhite translate-x-[100vh] sm:translate-x-[0vh] transition-all sm:transition-none  sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary"
       >
@@ -37,12 +41,12 @@ const Navbar = () => {
         >
           <img src={close} alt="close" />
         </button>
-      </nav>
+      </section>
 
       <button onClick={showNavbar} className="opacity-1 sm:opacity-0 sm:hidden">
         <img src={menu} alt="menu" />
       </button>
-    </section>
+    </nav>
   );
 };
 

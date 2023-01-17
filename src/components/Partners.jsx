@@ -5,7 +5,7 @@ import dropbox from "../assets/dropbox.png";
 
 const Partners = () => {
   return (
-    <figure className="flex flex-wrap gap-4 py-8 md:justify-between">
+    <figure className="flex flex-wrap gap-4 py-9 md:justify-between">
       <img
         src={airbnb}
         alt="airbnb"

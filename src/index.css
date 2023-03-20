@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .anchor-tag {
+    @apply mx-2 hover:text-white;
+  }
+
+  .partners-style {
+    @apply max-w-[40%] sm:w-28 object-contain;
+  }
+
+  .stats-style {
+    @apply sm:flex sm:gap-2 sm:items-center;
+  }
+}

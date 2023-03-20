@@ -8,7 +8,7 @@ const HandleMoney = () => {
     <section className="py-8 sm:flex md:justify-between sm:gap-3 sm:items-center">
       <div className="sm:w-96 md:w-80 lg:w-[30rem]">
         <h1 className="text-white font-normal text-2xl lg:text-4xl">
-          You do the business, we’ll handle the money.
+          You do the business, we'll handle the money.
         </h1>
         <p className="text-dimWhite text-[1rem] py-4">
           With the right credit card, you can improve your financial life by

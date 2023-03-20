@@ -23,16 +23,16 @@ const Navbar = () => {
         ref={navRef}
         className="text-dimWhite translate-x-[100%] sm:translate-x-[0] transition-all sm:transition-none  sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary"
       >
-        <a className="mx-2 hover:text-white" href="#">
+        <a className="anchor-tag" href="#">
           Home
         </a>
-        <a className="mx-2 hover:text-white" href="#">
+        <a className="anchor-tag" href="#">
           About Us
         </a>
-        <a className="mx-2 hover:text-white" href="#">
+        <a className="anchor-tag" href="#">
           Features
         </a>
-        <a className="mx-2 hover:text-white" href="#">
+        <a className="anchor-tag" href="#">
           Solution
         </a>
         <button

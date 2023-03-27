@@ -6,14 +6,18 @@ import people3 from "../assets/people03.png";
 const Comments = () => {
   return (
     <section className="py-6 flex flex-wrap gap-3 lg:flex-nowrap md:justify-between">
-      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
-        <div className="pt-5">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
+      >
+        <figure className="pt-5">
           <img
             src={quotes}
             alt="quotes"
             className="max-w-[30px] object-cover"
           />
-        </div>
+        </figure>
 
         <p className="text-white text-[1rem] py-8 ">
           Money is only a tool. It will take you wherever you wish, but it will
@@ -32,14 +36,19 @@ const Comments = () => {
         </figure>
       </div>
 
-      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
-        <div className="pt-5">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="1000"
+        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
+      >
+        <figure className="pt-5">
           <img
             src={quotes}
             alt="quotes"
             className="max-w-[30px] object-cover"
           />
-        </div>
+        </figure>
 
         <p className="text-white text-[1rem] py-8 ">
           Money makes your life easier. If you're lucky to have it, you're
@@ -58,14 +67,19 @@ const Comments = () => {
         </figure>
       </div>
 
-      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
-        <div className="pt-5">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="2000"
+        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
+      >
+        <figure className="pt-5">
           <img
             src={quotes}
             alt="quotes"
-            className="max-w-[30px]  object-cover"
+            className="max-w-[30px] object-cover"
           />
-        </div>
+        </figure>
 
         <p className="text-white text-[1rem] py-8 ">
           It is usually people in the money business, finance, and international

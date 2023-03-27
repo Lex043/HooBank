@@ -4,7 +4,11 @@ import GetStartedBtn from "./GetStartedBtn";
 const BetterCard = () => {
   return (
     <figure className="py-8 sm:flex sm:items-center sm:gap-3 md:justify-between">
-      <header className="pb-6 md:w-96 lg:w-[30rem]">
+      <header
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        className="pb-6 md:w-96 lg:w-[30rem]"
+      >
         <h1 className="text-white text-2xl lg:text-4xl pb-3">
           Find a better card deal in few easy steps.
         </h1>
@@ -15,7 +19,7 @@ const BetterCard = () => {
         <GetStartedBtn />
       </header>
 
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <img
           src={pay}
           alt="pay"

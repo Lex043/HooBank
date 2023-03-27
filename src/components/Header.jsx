@@ -5,7 +5,11 @@ import GetStarted from "./GetStarted";
 const Header = () => {
   return (
     <header className="sm:flex sm:items-center md:gap-9 lg:justify-between mt-8">
-      <section className="lg:w-[60rem]">
+      <section
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="lg:w-[60rem]"
+      >
         <figure className="flex gap-1 items-center rounded-[10px] bg-dimBlue w-56 pl-2">
           <img src={discount} alt="" className="w-6" />
           <figcaption className="text-[#FFFFFF] text-[9px]">
@@ -29,7 +33,11 @@ const Header = () => {
         </p>
       </section>
 
-      <figure className="lg:w-[50rem]">
+      <figure
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        className="lg:w-[50rem] max-w-full"
+      >
         <img src={robot} alt="robot" className="max-w-full object-cover" />
       </figure>
     </header>

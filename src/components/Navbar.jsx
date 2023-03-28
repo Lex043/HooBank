@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between py-5">
+    <nav className="flex items-center justify-between py-5 overflow-hidden">
       <img
         src={logo}
         alt={logo}
@@ -21,7 +21,7 @@ const Navbar = () => {
 
       <section
         ref={navRef}
-        className="text-dimWhite translate-x-[100%] sm:translate-x-[0] transition-all sm:transition-none  sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary"
+        className="text-dimWhite translate-x-[100%] sm:translate-x-[0] transition-all sm:transition-none sm:text-xs lg:text-[1rem] sm:relative fixed top-0 left-0 sm:h-0 h-full w-full flex sm:flex-row flex-col items-center justify-center sm:justify-end gap-3 bg-primary z-50"
       >
         <a className="anchor-tag" href="#">
           Home

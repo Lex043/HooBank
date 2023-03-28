@@ -11,7 +11,7 @@ const Partners = () => {
         alt="airbnb"
         className="partners-style"
         data-aos="fade-right"
-        data-aos-delay="500"
+        data-aos-delay="600"
         data-aos-duration="1000"
       />
       <img
@@ -27,7 +27,7 @@ const Partners = () => {
         alt="coinbase"
         className="max-w-[40%] sm:w-24 object-contain"
         data-aos="fade-up"
-        data-aos-delay="500"
+        data-aos-delay="600"
         data-aos-duration="1000"
       />
       <img
@@ -35,7 +35,7 @@ const Partners = () => {
         alt="dropbox"
         className="partners-style"
         data-aos="fade-left"
-        data-aos-delay="500"
+        data-aos-delay="600"
         data-aos-duration="1000"
       />
     </figure>

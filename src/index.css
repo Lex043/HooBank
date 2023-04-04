@@ -17,3 +17,7 @@
     @apply sm:flex sm:gap-2 sm:items-center;
   }
 }
+
+.perspective {
+  perspective: 100px;
+}

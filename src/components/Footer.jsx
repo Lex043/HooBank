@@ -3,12 +3,7 @@ import logo from "../assets/logo.svg";
 const Footer = () => {
   return (
     <section className="pt-8 flex flex-wrap md:justify-between">
-      <figure
-        className="pb-3 sm:w-64"
-        data-aos="fade-right"
-        data-aos-delay="600"
-        data-aos-duration="1000"
-      >
+      <figure className="pb-3 sm:w-64">
         <img
           src={logo}
           alt="logo"
@@ -19,7 +14,7 @@ const Footer = () => {
         </p>
       </figure>
       <section className="sm:flex sm:gap-5 lg:gap-8">
-        <ul data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
+        <ul>
           <li className="text-white list-none py-3 sm:py-0 sm:pb-2 text-[1.5rem]">
             Useful Links
           </li>
@@ -32,7 +27,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        <ul data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+        <ul>
           <li className="text-white list-none py-3 sm:py-0 sm:pb-2 text-[1.5rem]">
             Community
           </li>
@@ -43,7 +38,7 @@ const Footer = () => {
           <li className="text-dimWhite list-none text-[1rem] ">Newsletters</li>
         </ul>
 
-        <ul data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+        <ul>
           <li className="text-white list-none py-3 sm:py-0 sm:pb-2 text-[1.5rem]">
             Partner
           </li>

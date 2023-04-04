@@ -6,12 +6,7 @@ import send from "../assets/Send.svg";
 const HandleMoney = () => {
   return (
     <section className="py-8 sm:flex md:justify-between sm:gap-3 sm:items-center">
-      <div
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="300"
-        className="sm:w-96 md:w-80 lg:w-[30rem]"
-      >
+      <div className="sm:w-96 md:w-80 lg:w-[30rem]">
         <h1 className="text-white font-normal text-2xl lg:text-4xl">
           You do the business, we'll handle the money.
         </h1>
@@ -23,12 +18,7 @@ const HandleMoney = () => {
         <GetStartedBtn />
       </div>
 
-      <div
-        data-aos="fade-down"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-        className="pt-7 md:w-96 lg:w-[auto] flex flex-col gap-4"
-      >
+      <div className="pt-7 md:w-96 lg:w-[auto] flex flex-col gap-4">
         <figure className="flex gap-3 hover:bg-sha py-2 pl-2 rounded-md">
           <img src={star} alt="Star" />
           <header>

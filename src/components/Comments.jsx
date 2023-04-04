@@ -6,11 +6,7 @@ import people3 from "../assets/people03.png";
 const Comments = () => {
   return (
     <section className="py-6 flex flex-wrap gap-3 lg:flex-nowrap md:justify-between">
-      <div
-        data-aos="fade-up"
-        data-aos-delay="400"
-        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
-      >
+      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
         <figure className="pt-5">
           <img
             src={quotes}
@@ -36,12 +32,7 @@ const Comments = () => {
         </figure>
       </div>
 
-      <div
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="1000"
-        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
-      >
+      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
         <figure className="pt-5">
           <img
             src={quotes}
@@ -67,12 +58,7 @@ const Comments = () => {
         </figure>
       </div>
 
-      <div
-        data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="2000"
-        className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]"
-      >
+      <div className="py-2 px-4 hover:bg-sha rounded-md sm:w-72 md:w-56 lg:w-[19rem]">
         <figure className="pt-5">
           <img
             src={quotes}

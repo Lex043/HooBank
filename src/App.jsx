@@ -11,10 +11,13 @@ import TryService from "./components/TryService";
 import Footer from "./components/Footer";
 import FooterLink from "./components/FooterLink";
 import scroll from "./components/animations/Scroll";
-
-scroll();
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    scroll();
+  });
+
   return (
     <>
       <main className="bg-primary h-full px-6 md:px-[4rem] font-poppins">

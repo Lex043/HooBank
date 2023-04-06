@@ -22,7 +22,7 @@ const Header = () => {
           </div>
         </section>
 
-        <p className=" text-dimWhite text-[1rem] lg:w-[29rem] pb-6">
+        <p className=" text-dimWhite text-[1rem] lg:w-[29rem] pt-10 pb-6 hello">
           Our team of experts uses a methodology to identify the credit cards
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.
